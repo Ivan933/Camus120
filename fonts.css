@@ -1,0 +1,54 @@
+@font-face {
+   font-family: "Rockwell Condensed";
+   src: url("fonts/Rockwell-Condensed-Negrita.eot") format("embedded-opentype"), url("fonts/Rockwell-Condensed-Negrita.ttf") format("truetype"), url("fonts/Rockwell-Condensed-Negrita.woff") format("woff"), url("fonts/Rockwell-Condensed-Negrita.svg") format("svg");
+   font-weight: normal;
+   font-style: normal;
+}
+@font-face {
+   font-family: "Rockwell Condensed";
+   src: url("fonts/Rockwell-Condensed.eot") format("embedded-opentype"), url("fonts/Rockwell-Condensed.ttf") format("truetype"), url("fonts/Rockwell-Condensed.woff") format("woff"), url("fonts/Rockwell-Condensed.svg") format("svg");
+   font-weight: normal;
+   font-style: normal;
+}
+@font-face {
+   font-family: "Ink Free";
+   src: url("fonts/Ink-Free.eot") format("embedded-opentype"), url("fonts/Ink-Free.ttf") format("truetype"), url("fonts/Ink-Free.woff") format("woff"), url("fonts/Ink-Free.svg") format("svg");
+   font-weight: normal;
+   font-style: normal;
+}
+@font-face {
+   font-family: "Rockwell";
+   src: url("fonts/Rockwell.eot") format("embedded-opentype"), url("fonts/Rockwell.ttf") format("truetype"), url("fonts/Rockwell.woff") format("woff"), url("fonts/Rockwell.svg") format("svg");
+   font-weight: normal;
+   font-style: normal;
+}
+@font-face {
+   font-family: "Rockwell";
+   src: url("fonts/Rockwell-Condensed.eot") format("embedded-opentype"), url("fonts/Rockwell-Condensed.ttf") format("truetype"), url("fonts/Rockwell-Condensed.woff") format("woff"), url("fonts/Rockwell-Condensed.svg") format("svg");
+   font-weight: normal;
+   font-style: normal;
+}
+@font-face {
+   font-family: "Rockwell";
+   src: url("fonts/Microsoft-Himalaya.eot") format("embedded-opentype"), url("fonts/Microsoft-Himalaya.ttf") format("truetype"), url("fonts/Microsoft-Himalaya.woff") format("woff"), url("fonts/Microsoft-Himalaya.svg") format("svg");
+   font-weight: normal;
+   font-style: normal;
+}
+@font-face {
+   font-family: "Rockwell";
+   src: url("fonts/Rockwell-Cursiva.eot") format("embedded-opentype"), url("fonts/Rockwell-Cursiva.ttf") format("truetype"), url("fonts/Rockwell-Cursiva.woff") format("woff"), url("fonts/Rockwell-Cursiva.svg") format("svg");
+   font-weight: normal;
+   font-style: normal;
+}
+@font-face {
+   font-family: "Rockwell";
+   src: url("fonts/Rockwell-Negrita.eot") format("embedded-opentype"), url("fonts/Rockwell-Negrita.ttf") format("truetype"), url("fonts/Rockwell-Negrita.woff") format("woff"), url("fonts/Rockwell-Negrita.svg") format("svg");
+   font-weight: normal;
+   font-style: normal;
+}
+@font-face {
+   font-family: "Rockwell";
+   src: url("fonts/Rockwell-Negrita-Cursiva.eot") format("embedded-opentype"), url("fonts/Rockwell-Negrita-Cursiva.ttf") format("truetype"), url("fonts/Rockwell-Negrita-Cursiva.woff") format("woff"), url("fonts/Rockwell-Negrita-Cursiva.svg") format("svg");
+   font-weight: normal;
+   font-style: normal;
+}
