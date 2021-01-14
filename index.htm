@@ -8,7 +8,7 @@
     <meta name="viewport" content="user-scalable=no, initial-scale=0.61, width=device-width, viewport-fit=cover" />
     
     <script src="lib/tdvplayer.js"></script>
-    <script src="script.js?v=1610589150391"></script>
+    <script src="script.js?v=1610590579114"></script>
     <script src="lib/ThreeWebGL.js"></script>
     <script type="text/javascript">
         var player;
@@ -43,9 +43,9 @@
             };
 
             var settings = new TDV.PlayerSettings();
-            settings.set(TDV.PlayerSettings.ACTIVE_VIDEO_ELEMENT, document.getElementById("video_EF149583_FE3B_A114_41B6_11D216BA91BE"));
+            
             settings.set(TDV.PlayerSettings.CONTAINER, document.getElementById('viewer'));
-            settings.set(TDV.PlayerSettings.SCRIPT_URL, 'script.js?v=1610589150391');
+            settings.set(TDV.PlayerSettings.SCRIPT_URL, 'script.js?v=1610590579114');
             settings.set(TDV.PlayerSettings.FLASH_EXPRESS_INSTALLER_URL, 'lib/ExpressInstall.swf');
             settings.set(TDV.PlayerSettings.FLASH_AUDIO_PLAYER_URL, 'lib/AudioPlayer.swf');
             settings.set(TDV.PlayerSettings.FLASH_PANORAMA_PLAYER_URL, 'lib/PanoramaRenderer.swf');
@@ -149,7 +149,7 @@
             var transitionEnd = transitionEndEventName();
             var preloadContainer = document.getElementById('preloadContainer');
 
-            document.getElementById("video_EF149583_FE3B_A114_41B6_11D216BA91BE").pause();
+            
 
             var transitionEndName = transitionEndEventName();
             if(transitionEndName)
@@ -203,8 +203,7 @@
                 return;
             }
 
-            playVideo(document.getElementById("video_EF149583_FE3B_A114_41B6_11D216BA91BE"));
-showPreloader();
+            showPreloader();
 loadTour()
         }
 
@@ -264,7 +263,7 @@ loadTour()
     <link rel="stylesheet" href="fonts.css">
 </head>
 <body onload="onLoad()">
-    <div id="preloadContainer" style="background-color:rgba(0,0,0,1)"><div style="z-index: 4; position: absolute; display: flex; align-items: center; text-align: center; overflow: hidden; background-color: #000000; left: 0%; top: 0%; width: 100.00%; height: 100.00%"><video id="video_EF149583_FE3B_A114_41B6_11D216BA91BE" style="position: absolute; min-width: 100%; min-height: 100%; width: auto; height: auto; overflow: hidden; left: 50%; top: 50%; transform: translateY(-50%) translateX(-50%)" loop autoplay playsinline webkit-playsinline poster="media/video_EF149583_FE3B_A114_41B6_11D216BA91BE_poster.jpg" preload="auto"><source src="media/video_EF149583_FE3B_A114_41B6_11D216BA91BE.mp4" type="video/mp4">Your browser does not support the video tab</video></div><div style="z-index: 5; position: absolute; background-image: url('loading/HTMLImage_EE495299_FE38_6334_41DE_B22712B58958.png'); background-size: contain; background-repeat: no-repeat; background-position: center center; overflow: hidden; right: 0%; top: 0%; width: 19.31%; height: 27.19%"></div><div style="z-index: 6; position: absolute; left: 0%; top: 34.79532163742689%; width: 100.00%; height: 10.00%"><div style="text-align:left; color:#000; "><DIV STYLE="text-align:center;"><SPAN STYLE="letter-spacing:0px;color:#777777;font-size:14px;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="color:#ffffff;font-size:31px;"> </SPAN><SPAN STYLE="color:#ffffff;font-size:31px;font-family:'Rockwell';">CARGANDO TOUR.....POR FAVOR ESPERE</SPAN></SPAN></DIV><p STYLE="margin:0; line-height:12px;"><BR STYLE="letter-spacing:0px;color:#000000;font-size:12px;font-family:Arial, Helvetica, sans-serif;"/></p></div></div></div>
+    <div id="preloadContainer" style="background-color:rgba(0,0,0,1)"><div style="z-index: 4; position: absolute; background-image: url('loading/HTMLImage_EE495299_FE38_6334_41DE_B22712B58958.png'); background-size: contain; background-repeat: no-repeat; background-position: center center; overflow: hidden; right: 0%; top: 0%; width: 19.31%; height: 27.19%"></div><div style="z-index: 5; position: absolute; background-image: url('loading/HTMLImage_EBC924EA_FED7_E714_41E6_7273D41859C8.gif'); background-size: contain; background-repeat: no-repeat; background-position: center center; overflow: hidden; right: 31.13237639553428%; bottom: 47.07602339181285%; width: 38.28%; height: 52.63%"></div><div style="z-index: 6; position: absolute; left: 0%; top: 41.22807017543859%; width: 100.00%; height: 10.00%"><div style="text-align:left; color:#000; "><DIV STYLE="text-align:center;"><SPAN STYLE="letter-spacing:0px;color:#777777;font-size:14px;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="color:#ffffff;font-size:31px;"> </SPAN><SPAN STYLE="color:#ffffff;font-size:31px;font-family:'Rockwell';">CARGANDO TOUR.....POR FAVOR ESPERE</SPAN></SPAN></DIV><p STYLE="margin:0; line-height:12px;"><BR STYLE="letter-spacing:0px;color:#000000;font-size:12px;font-family:Arial, Helvetica, sans-serif;"/></p></div></div></div>
     <div id="viewer"></div>
 </body>
 </html>
